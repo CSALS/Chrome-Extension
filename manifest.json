@@ -1,0 +1,12 @@
+{
+    "name" : "Cart  Wars" ,
+    "description" : "Add items to cart" ,
+    "version" : "1.0" ,
+    "manifest_version" : 2,
+    "permissions": ["tabs","<all_urls>","http://localhost:4192/*"],
+    "browser_action" : {
+        "default_icon" : "logo.png",
+        "default_popup" : "main.html",
+        "default_title" : "Cart Wars"
+    }
+}
